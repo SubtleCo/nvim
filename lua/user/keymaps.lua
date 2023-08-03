@@ -45,6 +45,7 @@ keymap("v", "p", '"_dP', opts)
 
 -- Save
 keymap("v", "<C-s>", ":w<CR>", opts)
+keymap("n", "<F1>", ":w<CR>", opts)
 
 -- Insert --
 -- Press jk fast to enter
